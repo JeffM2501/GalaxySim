@@ -1,5 +1,6 @@
 /GalaxySim.v12.suo
-/StelarCartographer/bin/Debug
-/GalaxySim/bin/Debug
-/GalaxySim/obj/Debug
-Debug
+/StelarCartographer/bin
+/GalaxySim/bin
+/GalaxySim/obj
+bin
+obj
