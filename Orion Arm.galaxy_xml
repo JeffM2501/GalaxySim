@@ -1,0 +1,6244 @@
+<?xml version="1.0"?>
+<GalacticRegon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Orion Arm</Name>
+  <Location>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>0</Z>
+  </Location>
+  <Radius>0</Radius>
+  <StarSystems>
+    <StarSystem>
+      <Name>Sol</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.8</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>α Centauri</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.34</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.7</Magnitude>
+          <Offset>
+            <X>2732248882.5157232</X>
+            <Y>-3267834411.5425186</Y>
+            <Z>-17698262966.687366</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-3.3447383680804004</X>
+        <Y>-2.7968420136094316</Y>
+        <Z>-3.7433918696067474</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Sirius</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>1.42</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-1.6832478777541453</X>
+        <Y>8.4336632955102111</Y>
+        <Z>-2.2343000234693715</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ε Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.18</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>6.2849532005941384</X>
+        <Y>8.4112640706579587</Y>
+        <Z>-1.5386305963832867</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>61 Cygni</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.49</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.31</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>8.2999859389021786</X>
+        <Y>-7.8147446160463945</Y>
+        <Z>7.1703216539626409</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Procyon</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>2.65</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-4.8283446369926946</X>
+        <Y>10.437293138856639</Y>
+        <Z>1.0705887555092419</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ε Indi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.89</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>10.304522053809942</X>
+        <Y>-5.7495065216542338</Y>
+        <Z>-9.68686631812247</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>τ Ceti</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.68</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>10.694100878872975</X>
+        <Y>5.2197898801089933</Y>
+        <Z>-2.8797942036481756</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Groombridge 1618</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.16</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-14.147075819462387</X>
+        <Y>7.2574269378604583</Y>
+        <Z>12.092932620715375</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ο2 Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.92</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.2801951581483477</X>
+        <Y>14.807050971050021</Y>
+        <Z>-1.8126436539573094</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>70 Ophiuchi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.71</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.48</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>0.3950626247555335</X>
+        <Y>-16.595298295677644</Y>
+        <Z>0.72456424479509263</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Altair</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>2.2</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.7617868694631049</X>
+        <Y>-14.786638042267422</Y>
+        <Z>2.5812637518210315</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>σ Draconis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.87</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.372906967548813</X>
+        <Y>-17.293936591992878</Y>
+        <Z>17.645650753133829</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 570</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.86</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-13.582712520267299</X>
+        <Y>-13.285703616736825</Y>
+        <Z>-6.6128958968167275</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>η Cassiopeiae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.59</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>18.956398621416504</X>
+        <Y>4.1249183393078681</Y>
+        <Z>16.457140127755931</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>36 Ophiuchi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.18</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.22</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>C</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.45</Magnitude>
+          <Offset>
+            <X>-689696869509.69055</X>
+            <Y>134731429675.11371</Y>
+            <Z>-241339847820.02856</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-3.7750772073670746</X>
+        <Y>-19.13109490014666</Y>
+        <Z>-8.3511665838725921</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 783</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.41</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>10.617409035232036</X>
+        <Y>-16.475151755858676</Y>
+        <Z>-11.48781738728527</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>82 G. Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.35</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>12.731992192840391</X>
+        <Y>15.163653082336438</Y>
+        <Z>-13.474897525093507</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>δ Pavonis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>4.62</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>10.597636569534886</X>
+        <Y>-16.843399275088647</Y>
+        <Z>-18.122963531906002</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 892</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.5</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>20.956938401874257</X>
+        <Y>-4.3320587276776328</Y>
+        <Z>17.986523377666142</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ξ Boötis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.59</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>4</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.84</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-16.056364381201327</X>
+        <Y>-14.893057538937033</Y>
+        <Z>7.1686303272482776</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 667</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.07</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.02</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-3.9370121254910324</X>
+        <Y>-21.746492487841266</Y>
+        <Z>-12.010496828429121</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 753</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.5</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>18.179977588655436</X>
+        <Y>14.732563078975296</Y>
+        <Z>2.8258989947063609</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 33</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.38</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.760510422976612</X>
+        <Y>5.0919686212328283</Y>
+        <Z>2.3188493197529745</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Hydri</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>3.45</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>24.146768557227382</X>
+        <Y>2.7246225873862149</Y>
+        <Z>-23.646945067553197</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>107 Piscium</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.87</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>22.00029551755706</X>
+        <Y>10.552108658470059</Y>
+        <Z>8.4628999646122161</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>μ Cassiopeiae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>6</Luminosity>
+          <Magnitude>5.78</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.516507629580996</X>
+        <Y>7.2203787232983059</Y>
+        <Z>20.1441603001764</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>TW Piscis Austrini</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.07</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.851209181029741</X>
+        <Y>-6.7941018981733414</Y>
+        <Z>-12.481129050807967</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Vega</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>0.58</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>4.0119964571154219</X>
+        <Y>-24.675977881901527</Y>
+        <Z>15.661269415877255</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Fomalhaut</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>1.74</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>24.176876972235664</X>
+        <Y>-6.7445251774591961</Y>
+        <Z>-11.899453331166681</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 673</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.1</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-3.7366779697014407</X>
+        <Y>-24.820298905346565</Y>
+        <Z>0.99472328044576408</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>p Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.27</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.120604088649436</X>
+        <Y>10.755820125677397</Y>
+        <Z>-21.045631223967039</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>B</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>K5V</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>0.95</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.27</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.120604088649436</X>
+        <Y>10.755820125677397</Y>
+        <Z>-21.045631223967039</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>π3 Orionis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>6</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.67</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.9260534285646358</X>
+        <Y>25.077234238399154</Y>
+        <Z>3.2594491071479976</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>χ Draconis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.15</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.14</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>2.4129299329176317</X>
+        <Y>-26.189077286892527</Y>
+        <Z>25.14532866068415</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 884</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.33</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>25.701679982453783</X>
+        <Y>-6.8544617643936565</Y>
+        <Z>-9.6920330738774574</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>μ Herculis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>3.8</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-1.6002581065337065</X>
+        <Y>-27.052711028517514</Y>
+        <Z>12.629314405591792</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Canum Venaticorum</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.63</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-27.202488991157516</X>
+        <Y>-4.0341780682010295</Y>
+        <Z>18.20841732119268</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>61 Virginis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.09</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-26.283191936096696</X>
+        <Y>-9.3596913223835365</Y>
+        <Z>-8.4045902940891555</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ Tucanae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.56</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>27.892694194192067</X>
+        <Y>2.44900195779508</Y>
+        <Z>-24.95077054552906</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>χ1 Orionis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.7</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>0.69352920794273309</X>
+        <Y>28.291500795075017</Y>
+        <Z>9.8688325211423251</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 250</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.88</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-6.424927754837384</X>
+        <Y>27.663700102211926</Y>
+        <Z>-2.3406385621391137</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 1614</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.49</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.2526627197774785</X>
+        <Y>27.458311737489431</Y>
+        <Z>-2.0774930786825951</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>41 G. Arae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.83</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-5.0991134499812913</X>
+        <Y>-28.243389350859076</Y>
+        <Z>-20.408164406954093</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ξ Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.25</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.07</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-28.321930682131079</X>
+        <Y>5.2257288904575079</Y>
+        <Z>15.135365445483426</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 7722</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>16.180094636382126</X>
+        <Y>-24.187073770047473</Y>
+        <Z>-13.092762103979391</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>γ Leporis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.83</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.41</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>1.9847910759324683</X>
+        <Y>29.232697521523715</Y>
+        <Z>-10.662713374888469</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>δ Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>3.74</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>16.576313702370385</X>
+        <Y>24.402373328031185</Y>
+        <Z>-4.1306731505562286</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Groombridge 1830</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.61</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-29.686066400193713</X>
+        <Y>0.90964920892056045</Y>
+        <Z>18.18148697274685</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Comae Berenices</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.42</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-28.441698818399313</X>
+        <Y>-9.223869487555806</Y>
+        <Z>14.05543515854799</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>κ1 Ceti</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.03</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>19.283070400106851</X>
+        <Y>22.851109293522775</Y>
+        <Z>1.7834621078275139</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>γ Pavonis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>6</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.39</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.592721330607553</X>
+        <Y>-18.692070517101506</Y>
+        <Z>-27.14676670939804</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 4523</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.06</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.047932660383619</X>
+        <Y>1.7696730876213938</Y>
+        <Z>-19.143758599163856</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>61 Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.41</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.99375197689271</X>
+        <Y>2.5685284492992113</Y>
+        <Z>17.491827814239212</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 4458</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.06</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.907563875633475</X>
+        <Y>3.4543444057645387</Y>
+        <Z>-16.000621017652303</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>12 Ophiuchi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.82</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-11.349777216218376</X>
+        <Y>-29.705598077504018</Y>
+        <Z>-0.86825883620732558</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 638</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.15</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-10.2399686770797</X>
+        <Y>-30.211803016245597</Y>
+        <Z>17.670963063408358</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 511</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.64</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>29.241423737851257</X>
+        <Y>14.85863849023284</Y>
+        <Z>29.452155645309666</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 5256</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.47</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-28.754696239442982</X>
+        <Y>-16.191585598000078</Y>
+        <Z>29.035590779629771</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>α Mensae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.05</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-1.477299963234529</X>
+        <Y>33.067016569666933</Y>
+        <Z>-31.687971012939027</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 453</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>4</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.95</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-33.198685418870454</X>
+        <Y>0.29544281828869856</Y>
+        <Z>-14.654961394878768</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Pollux</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>1.09</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-14.946766713710323</X>
+        <Y>30.204042193155558</Y>
+        <Z>15.904006371692191</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 857</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.97</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>24.739611232476229</X>
+        <Y>23.176747745659572</Y>
+        <Z>-6.577289369493668</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ι Persei</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.94</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>23.343359870299366</X>
+        <Y>25.267519663902455</Y>
+        <Z>26.274260441880088</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 688</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.38</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-3.1506412799152379</X>
+        <Y>-34.757495012231452</Y>
+        <Z>2.2088664960207276</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Wolf 635</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.54</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-8.3316914915490923</X>
+        <Y>-34.096816814618464</Y>
+        <Z>-2.8775680266638646</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 9038</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.19</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>35.180759468996953</X>
+        <Y>-1.1636851741693171</Y>
+        <Z>34.109669859014893</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ Herculis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.74</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-11.853316704792832</X>
+        <Y>-33.144213417969048</Y>
+        <Z>18.465665795802344</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>B</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.26</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-11.853316704792832</X>
+        <Y>-33.144213417969048</Y>
+        <Z>18.465665795802344</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>δ Trianguli</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.66</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>29.256596484879292</X>
+        <Y>19.930167137305911</Y>
+        <Z>19.964131456714483</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Virginis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.4</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-35.570664280868435</X>
+        <Y>1.444936890577093</Y>
+        <Z>1.2243106266500963</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 86</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.93</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>29.9939970530156</X>
+        <Y>19.176030370848174</Y>
+        <Z>-26.899228094057595</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Denebola</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>1.92</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-36.158762534606147</X>
+        <Y>1.7273945600131311</Y>
+        <Z>9.1539494877845211</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 6806</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.15</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>1.5196335822370388</X>
+        <Y>-36.16808971698309</Y>
+        <Z>22.567978519265786</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>54 Piscium</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.65</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>35.667361153542778</X>
+        <Y>6.1870306563607453</Y>
+        <Z>13.124427914477675</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>γ Serpentis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>6</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.62</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-18.634343841905739</X>
+        <Y>-31.152066216892088</Y>
+        <Z>9.8985045122571833</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 320</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.35</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-23.732114426975262</X>
+        <Y>27.467740074948878</Y>
+        <Z>-21.793987549010602</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 370</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.43</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.79340248086886</X>
+        <Y>19.409440065370749</Y>
+        <Z>-24.571960715506027</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>11 Leonis Minoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.16</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-29.49710358376694</X>
+        <Y>21.498159925177866</Y>
+        <Z>21.429458899389473</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 505</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.36</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-34.56150457333392</X>
+        <Y>-12.044185386626134</Y>
+        <Z>10.715820834735061</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>θ Persei</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.85</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>27.601423386393066</X>
+        <Y>24.035836308418187</Y>
+        <Z>27.786558271071318</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Arcturus</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1.5</Temperature>
+          <Luminosity>3</Luminosity>
+          <Magnitude>-0.31</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.455986742648459</X>
+        <Y>-20.477374624976253</Y>
+        <Z>12.192075680750044</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>η Boötis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A/B</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.41</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-32.463345590738562</X>
+        <Y>-17.75193491020838</Y>
+        <Z>11.800984407668581</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 902</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.81</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>37.052927166023544</X>
+        <Y>-3.30463136058386</Y>
+        <Z>-35.215526835100064</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 169</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>14.46268897987629</X>
+        <Y>34.490442552558889</Y>
+        <Z>14.014573477068918</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>DE Boötis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A/B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.69</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-27.342173775972359</X>
+        <Y>-25.810182742563633</Y>
+        <Z>12.360479515351109</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ Doradus</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.38</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>8.94958147569199</X>
+        <Y>36.931084351937876</Y>
+        <Z>-31.666749677738181</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>λ Serpentis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>4.07</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-21.077343026870807</X>
+        <Y>-31.978674314730753</Y>
+        <Z>4.9303854873587669</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ι Pegasi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A/B</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.42</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>33.738998504790814</X>
+        <Y>-18.126499383326145</Y>
+        <Z>16.49460818814363</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>δ Capricorni</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>A</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.37</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>32.283923507490258</X>
+        <Y>-21.15911819907716</Y>
+        <Z>-10.460849881954935</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>γ Virginis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.1</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.16</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-37.963647521818707</X>
+        <Y>-6.9800764207211987</Y>
+        <Z>-0.21979248829325374</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 542</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.29</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-31.706160778867563</X>
+        <Y>-22.015434782547455</Y>
+        <Z>-32.893563115081115</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ2 Reticuli</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.83</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>25.56765785402327</X>
+        <Y>29.977572814682677</Y>
+        <Z>-34.594037849608462</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ Trianguli Australis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.5</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-15.361239953376783</X>
+        <Y>-36.390689840875247</Y>
+        <Z>-37.094420387759627</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ζ1 Reticuli</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.11</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>25.690812942748131</X>
+        <Y>30.003868589578996</Y>
+        <Z>-34.648376969424042</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 3384</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.95</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-24.623820533891578</X>
+        <Y>31.268314030575731</Y>
+        <Z>-20.192295410793832</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 1925</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.77</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>3.2452567613753152</X>
+        <Y>39.767804924998657</Y>
+        <Z>32.149322238484842</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Trianguli Australis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>3</Luminosity>
+          <Magnitude>2.38</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-20.780565227130815</X>
+        <Y>-34.295453180282685</Y>
+        <Z>-35.52784255230663</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>85 Pegasi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.34</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>6</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.41</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>40.498187372214929</X>
+        <Y>0.38317041244267125</Y>
+        <Z>18.575568675502009</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 435</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.28</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-40.660743370930454</X>
+        <Y>3.3680778677659133</Y>
+        <Z>-28.096271416111307</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ρ1 Cancri</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.47</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-27.9716221416801</X>
+        <Y>29.839543474441285</Y>
+        <Z>19.533826704199626</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 69830</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.45</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-23.280660916902438</X>
+        <Y>33.749234469424806</Y>
+        <Z>-7.9290925967483323</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 483</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>1.5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.3</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>37.203136739672217</X>
+        <Y>17.702164182078175</Y>
+        <Z>27.993201571201183</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>λ Aurigae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.18</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.3065656906311691</X>
+        <Y>40.546936971964868</Y>
+        <Z>26.658248735636782</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 683</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.81</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>33.936124087587388</X>
+        <Y>23.537830866753009</Y>
+        <Z>-16.719990136410036</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 349</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.68</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-32.835350423199</X>
+        <Y>25.215070148340349</Y>
+        <Z>4.1313099234824593</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>44 Boötis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.67</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B/C</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.44</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-28.925130636395679</X>
+        <Y>-29.89810725894608</Y>
+        <Z>30.773946659861984</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 6518</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.9</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-6.3417768409918693</X>
+        <Y>-41.214947124787869</Y>
+        <Z>38.4979825905179</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 40307</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.63</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>1.0810386405061154</X>
+        <Y>41.786018660046238</Y>
+        <Z>-36.156467269126288</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>36 Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.28</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-38.754320891829458</X>
+        <Y>15.928358741976851</Y>
+        <Z>34.807905954167367</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 6094</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.82</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-17.079618528897022</X>
+        <Y>-38.370387421908546</Y>
+        <Z>-26.244217733115015</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 428</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.96</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>M</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.27</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-41.502428269469725</X>
+        <Y>6.4458085402469214</Y>
+        <Z>-36.429136243830733</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 4587</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>4.99</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-42.099781727410353</X>
+        <Y>-0.13556734269506018</Y>
+        <Z>-6.8588056399729966</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Capella</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>Aa</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>3</Luminosity>
+          <Magnitude>0.2</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>Ab</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>3</Luminosity>
+          <Magnitude>0.35</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.9275672003079363</X>
+        <Y>41.44868729265864</Y>
+        <Z>30.459980852475411</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 6998</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.28</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.1437467709935145</X>
+        <Y>-41.69240796682196</Y>
+        <Z>-15.105247105782917</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 707</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.65</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>2.2944771001406568</X>
+        <Y>-42.538163745476012</Y>
+        <Z>-28.722993930431421</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 204</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.65</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>5.8490004830253222</X>
+        <Y>42.196554282898141</Y>
+        <Z>-1.6910414175868915</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 167</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.03</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>18.770677135738467</X>
+        <Y>38.4642909705335</Y>
+        <Z>-33.980139826474165</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>SZ Crateris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-42.294538400576862</X>
+        <Y>7.1820624810794609</Y>
+        <Z>-14.314432449011079</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 170657</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.21</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>5.8710776616002311</X>
+        <Y>-42.698248759070424</Y>
+        <Z>-12.583235081264409</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 146</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.34</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>25.482918121269144</X>
+        <Y>34.759615705940895</Y>
+        <Z>-31.799935725190416</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 775</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>4</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.84</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>22.001704651250066</X>
+        <Y>-37.06123301293632</Y>
+        <Z>2.5999066178680375</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 69</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.74</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>38.764092326233353</X>
+        <Y>18.840253345516786</Y>
+        <Z>38.710502519019549</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>58 Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.01</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>13.483357045973765</X>
+        <Y>41.252382752645808</Y>
+        <Z>-11.269325407310932</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 528</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>4</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.32</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>Unknown</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.71</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-38.844227030968391</X>
+        <Y>-20.020390265091859</Y>
+        <Z>19.949736419588621</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>υ Andromedae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>2.86</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>40.042073099962785</X>
+        <Y>17.995621185645042</Y>
+        <Z>29.079454727275454</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 556</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.67</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-34.496420365414437</X>
+        <Y>-27.312945318522861</Y>
+        <Z>35.155361853084308</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>θ Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>6</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.37</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-35.239845782700868</X>
+        <Y>26.346788593896221</Y>
+        <Z>34.599458647072545</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>LHS 3508</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.24</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>22.5810300070807</X>
+        <Y>-38.112820465288593</Y>
+        <Z>-33.898465436109831</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 174</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.36</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>14.945748405394571</X>
+        <Y>41.808905804895751</Y>
+        <Z>15.854248195558187</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 211415</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.66</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>40.095613673463625</X>
+        <Y>-19.070966523707092</Y>
+        <Z>-35.106617074226641</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 868</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.25</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>41.863710448802777</X>
+        <Y>-15.08906052273638</Y>
+        <Z>-21.039916201657956</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 166</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.23</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>44.681372240309166</X>
+        <Y>1.2903389953534175</Y>
+        <Z>21.736351097288129</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>β Aquilae</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>3.06</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>21.554326563323308</X>
+        <Y>-39.159941348291312</Y>
+        <Z>5.076332220155451</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>10 Tauri</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.6</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>26.134423816332934</X>
+        <Y>36.264057850553485</Y>
+        <Z>0.34456821508837127</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 656</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.58</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-9.68625788504074</X>
+        <Y>-43.842746357687105</Y>
+        <Z>-38.527114266991639</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ι Piscium</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.36</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>44.827904697786359</X>
+        <Y>-3.9317884488084736</Y>
+        <Z>4.5279985039215092</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>γ Cephei</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.24</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>44.8174576887364</X>
+        <Y>-4.0491340207904587</Y>
+        <Z>43.991997199415579</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 615</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.66</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-20.1558018431649</X>
+        <Y>-40.345429134650068</Y>
+        <Z>-37.5538544165503</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 898</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.68</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>44.783132634325931</X>
+        <Y>-5.3367622634301615</Y>
+        <Z>-11.660066403310028</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>BD -19° 733</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.4</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>25.286418475266757</X>
+        <Y>37.465144343692153</Y>
+        <Z>-14.510386884374158</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 394</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.06</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-41.7907332011081</X>
+        <Y>17.221341948692665</Y>
+        <Z>37.472498279487887</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>18 Scorpii</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.76</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-19.926285961485711</X>
+        <Y>-40.68209836993536</Y>
+        <Z>-5.99774515573289</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>τ1 Eridani</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A/B</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>3.74</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>34.195617912533095</X>
+        <Y>30.015158096869083</Y>
+        <Z>-13.562144824863422</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 529</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5.5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.62</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-40.7368923680741</X>
+        <Y>-21.149836883341344</Y>
+        <Z>-16.996184411889011</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 726</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.17</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>9.4353742267390643</X>
+        <Y>-44.919747474817669</Y>
+        <Z>-1.818702267658572</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 282</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.52</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.28</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-19.395152959603667</X>
+        <Y>41.600937990309511</Y>
+        <Z>-1.7653359143070833</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>47 Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.29</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-44.3082298662747</X>
+        <Y>11.982936456368378</Y>
+        <Z>29.880672923532806</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 532</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>8.24</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-40.615589271510643</X>
+        <Y>-21.595691888150963</Y>
+        <Z>35.218684476114674</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>26 Draconis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>9</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.31</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-5.0078762431903936</X>
+        <Y>-45.7265915582267</Y>
+        <Z>40.612447875866764</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>B</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.2</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-5.0078762431903936</X>
+        <Y>-45.7265915582267</Y>
+        <Z>40.612447875866764</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>α Fornacis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>3.05</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>30.77006267532305</X>
+        <Y>34.193614066908623</Y>
+        <Z>-20.832876708431051</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>B</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.98</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>30.77006267532305</X>
+        <Y>34.193614066908623</Y>
+        <Z>-20.832876708431051</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 42</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.72</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>44.969351563928548</X>
+        <Y>10.592328352151721</Y>
+        <Z>-22.782127231796022</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 611</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.94</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-22.326753372408955</X>
+        <Y>-40.675251490895853</Y>
+        <Z>29.354914132081575</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>CD -38° 11173</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.62</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-15.061688016068244</X>
+        <Y>-43.887419086870743</Y>
+        <Z>-27.870290790363995</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 7578</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.46</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>22.193524609959656</X>
+        <Y>-40.748097690409</Y>
+        <Z>-17.344196127187843</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>π1 Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.86</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-29.829111995998918</X>
+        <Y>35.8020121994582</Y>
+        <Z>42.261114140852186</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Ras Alhague</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>3</Luminosity>
+          <Magnitude>1.3</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-5.0975865780930976</X>
+        <Y>-46.4209501311514</Y>
+        <Z>10.266817743277514</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>η Cephei</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>4</Luminosity>
+          <Magnitude>2.63</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>30.900860250261097</X>
+        <Y>-35.147927901852668</Y>
+        <Z>41.289947735265336</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 144628</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.33</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-21.661138947731111</X>
+        <Y>-41.485359580062536</Y>
+        <Z>-38.511182811386853</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 144579</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.87</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-22.519225384240066</X>
+        <Y>-41.025900210644949</Y>
+        <Z>29.607973736668484</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>72 Herculis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.59</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-8.013071858322073</X>
+        <Y>-46.21039579351563</Y>
+        <Z>25.213732590566106</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 196761</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.58</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>30.178080056014224</X>
+        <Y>-35.901162712825837</Y>
+        <Z>-17.670195578325416</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 481</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.07</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-46.246259188443538</X>
+        <Y>-8.38352617192201</Y>
+        <Z>12.573377654703931</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 546</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.57</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-38.350807088368938</X>
+        <Y>-27.342743016579576</Y>
+        <Z>23.416389840500024</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 420</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>Unknown</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7.26</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-46.202987816946923</X>
+        <Y>9.1484379424607</Y>
+        <Z>45.182721002958445</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ν2 Lupi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.84</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-30.245689004832247</X>
+        <Y>-36.62578731744847</Y>
+        <Z>-35.113872783573306</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>θ Boötis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>F</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.28</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-38.2815934068045</X>
+        <Y>-28.120625992962928</Y>
+        <Z>37.366621432509305</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 269</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.26</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-15.79127818745957</X>
+        <Y>44.904293037595679</Y>
+        <Z>-33.567596173984541</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 833</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.48</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>38.673535273902786</X>
+        <Y>-27.922171645812163</Y>
+        <Z>-35.992818824829342</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ι Ursae Majoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>A</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>2.4</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-33.613513115078952</X>
+        <Y>33.844079778632121</Y>
+        <Z>35.540702402142344</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 259</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.05</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-12.593436144548488</X>
+        <Y>46.007557706024564</Y>
+        <Z>-19.277671164913702</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 201</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>Unknown</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>7</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.5530908087272817</X>
+        <Y>47.199479014445906</Y>
+        <Z>14.317367354553424</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ψ Serpentis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.03</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-26.723656844825037</X>
+        <Y>-39.63188318563774</Y>
+        <Z>2.2759938373298834</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>111 Tauri</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.17</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>7.3917221843497041</X>
+        <Y>47.2250192498573</Y>
+        <Z>14.28088107225315</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 604</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.22</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-24.317217877234324</X>
+        <Y>-41.1523136009522</Y>
+        <Z>-31.52979528279814</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ψ Capricorni</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.3</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>31.755150700237827</X>
+        <Y>-35.861126641604343</Y>
+        <Z>-19.996842820680552</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 233</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>5.91</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-5.491220167379173</X>
+        <Y>47.88618277826464</Y>
+        <Z>15.576336132928931</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>α Corvi</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>2</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.17</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-48.167500009129618</X>
+        <Y>-1.7697296037809078</Y>
+        <Z>-18.910649020291665</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>20 Leonis Minoris</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>3</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>4.5</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>-42.196216046485986</X>
+        <Y>24.113053546954166</Y>
+        <Z>25.769060785786024</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>AB Doradus</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>0</Luminosity>
+          <Magnitude>6.95</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>6.6198746106541311</X>
+        <Y>48.247976746587177</Y>
+        <Z>-43.8962640208631</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>ν Phoenicis</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>F</SpectralType>
+          <Temperature>8</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>3.7</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>46.102960170294239</X>
+        <Y>15.690986697345181</Y>
+        <Z>-33.987468693107047</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HR 209</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>G</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>4.93</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>47.732895834564623</X>
+        <Y>9.6571556499107611</Y>
+        <Z>-35.281820284606617</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 52</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>8.1</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>46.720267547218505</X>
+        <Y>14.094559245195319</Y>
+        <Z>43.882906626796135</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Gliese 1279</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>K</SpectralType>
+          <Temperature>5</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>7.62</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>47.628605607334705</X>
+        <Y>-10.628072633406532</Y>
+        <Z>-44.672915419211776</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>Alderamin</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name />
+          <SpectralType>A</SpectralType>
+          <Temperature>7</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>1.58</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>37.188358299268245</X>
+        <Y>-31.598512734070987</Y>
+        <Z>43.331921656076695</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+    <StarSystem>
+      <Name>HD 176051</Name>
+      <LocalName />
+      <Stars>
+        <Star>
+          <Name>A</Name>
+          <SpectralType>G</SpectralType>
+          <Temperature>0</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>5.34</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+        <Star>
+          <Name>B</Name>
+          <SpectralType>K</SpectralType>
+          <Temperature>1</Temperature>
+          <Luminosity>5</Luminosity>
+          <Magnitude>6.65</Magnitude>
+          <Offset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Offset>
+        </Star>
+      </Stars>
+      <Location>
+        <X>12.043789282043239</X>
+        <Y>-47.393640287803812</Y>
+        <Z>26.576157742455962</Z>
+      </Location>
+      <Radius>0</Radius>
+      <OrbitalPlane>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </OrbitalPlane>
+      <SyncDate>0</SyncDate>
+      <Planets />
+      <DebrisFields />
+    </StarSystem>
+  </StarSystems>
+</GalacticRegon>
