@@ -115,6 +115,8 @@ namespace GalaxySim
             public string Name = string.Empty;
             public byte ID = 0;
 
+			public bool Populated = false;
+
 			public override string ToString()
 			{
 				return Name == string.Empty ? "Un-Named Planet" : Name;
@@ -138,6 +140,7 @@ namespace GalaxySim
 				Terestrial,
 				Fluid,
 				Gasious,
+				Unknown,
             }
 
 			public enum Climates
@@ -150,6 +153,7 @@ namespace GalaxySim
 				Warm,
 				Hot,
 				Molten,
+				Unknown,
 			}
 
 			public TypeClasses TypeClass = TypeClasses.Selena;

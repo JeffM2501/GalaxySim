@@ -59,13 +59,13 @@
 			this.label4 = new System.Windows.Forms.Label();
 			this.Luminosity = new System.Windows.Forms.NumericUpDown();
 			this.PlanetsTab = new System.Windows.Forms.TabPage();
-			this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+			this.DebrisOrbitalAngle = new System.Windows.Forms.NumericUpDown();
 			this.label15 = new System.Windows.Forms.Label();
-			this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+			this.DebrisOuterRadius = new System.Windows.Forms.NumericUpDown();
 			this.label14 = new System.Windows.Forms.Label();
-			this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+			this.DebrisArc = new System.Windows.Forms.NumericUpDown();
 			this.label13 = new System.Windows.Forms.Label();
-			this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+			this.DebrisInnerRadius = new System.Windows.Forms.NumericUpDown();
 			this.label16 = new System.Windows.Forms.Label();
 			this.DebrisName = new System.Windows.Forms.TextBox();
 			this.label12 = new System.Windows.Forms.Label();
@@ -81,8 +81,13 @@
 			this.SatelitesList = new System.Windows.Forms.ListBox();
 			this.label9 = new System.Windows.Forms.Label();
 			this.PlanetList = new System.Windows.Forms.ListBox();
+			this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.addPlanetsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.SystemDiagramTab = new System.Windows.Forms.TabPage();
+			this.SystemDisplay = new System.Windows.Forms.PictureBox();
 			this.SateliteInfo = new StelarCartographer.PlanetPropertyEditor();
 			this.PlanetInfo = new StelarCartographer.PlanetPropertyEditor();
+			this.clearAllPlanetsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
@@ -95,16 +100,19 @@
 			((System.ComponentModel.ISupportInitialize)(this.StarTempurateure)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.Luminosity)).BeginInit();
 			this.PlanetsTab.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisOrbitalAngle)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisOuterRadius)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisArc)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisInnerRadius)).BeginInit();
+			this.SystemDiagramTab.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.SystemDisplay)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.toolsToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(764, 24);
@@ -197,9 +205,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.StarSystemList.FormattingEnabled = true;
-			this.StarSystemList.Location = new System.Drawing.Point(0, 26);
+			this.StarSystemList.Location = new System.Drawing.Point(0, 39);
 			this.StarSystemList.Name = "StarSystemList";
-			this.StarSystemList.Size = new System.Drawing.Size(115, 368);
+			this.StarSystemList.Size = new System.Drawing.Size(146, 485);
 			this.StarSystemList.TabIndex = 0;
 			this.StarSystemList.SelectedIndexChanged += new System.EventHandler(this.StarSystemList_SelectedIndexChanged);
 			// 
@@ -208,6 +216,7 @@
 			this.tabControl1.Controls.Add(this.SystemInfoTab);
 			this.tabControl1.Controls.Add(this.StarsTab);
 			this.tabControl1.Controls.Add(this.PlanetsTab);
+			this.tabControl1.Controls.Add(this.SystemDiagramTab);
 			this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tabControl1.Location = new System.Drawing.Point(0, 0);
 			this.tabControl1.Name = "tabControl1";
@@ -406,13 +415,13 @@
 			// 
 			// PlanetsTab
 			// 
-			this.PlanetsTab.Controls.Add(this.numericUpDown4);
+			this.PlanetsTab.Controls.Add(this.DebrisOrbitalAngle);
 			this.PlanetsTab.Controls.Add(this.label15);
-			this.PlanetsTab.Controls.Add(this.numericUpDown3);
+			this.PlanetsTab.Controls.Add(this.DebrisOuterRadius);
 			this.PlanetsTab.Controls.Add(this.label14);
-			this.PlanetsTab.Controls.Add(this.numericUpDown2);
+			this.PlanetsTab.Controls.Add(this.DebrisArc);
 			this.PlanetsTab.Controls.Add(this.label13);
-			this.PlanetsTab.Controls.Add(this.numericUpDown1);
+			this.PlanetsTab.Controls.Add(this.DebrisInnerRadius);
 			this.PlanetsTab.Controls.Add(this.label16);
 			this.PlanetsTab.Controls.Add(this.DebrisName);
 			this.PlanetsTab.Controls.Add(this.label12);
@@ -438,13 +447,14 @@
 			this.PlanetsTab.UseVisualStyleBackColor = true;
 			this.PlanetsTab.Click += new System.EventHandler(this.PlanetsTab_Click);
 			// 
-			// numericUpDown4
+			// DebrisOrbitalAngle
 			// 
-			this.numericUpDown4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown4.Location = new System.Drawing.Point(440, 430);
-			this.numericUpDown4.Name = "numericUpDown4";
-			this.numericUpDown4.Size = new System.Drawing.Size(124, 20);
-			this.numericUpDown4.TabIndex = 52;
+			this.DebrisOrbitalAngle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.DebrisOrbitalAngle.Location = new System.Drawing.Point(440, 430);
+			this.DebrisOrbitalAngle.Name = "DebrisOrbitalAngle";
+			this.DebrisOrbitalAngle.Size = new System.Drawing.Size(124, 20);
+			this.DebrisOrbitalAngle.TabIndex = 52;
+			this.DebrisOrbitalAngle.ValueChanged += new System.EventHandler(this.DebrisOrbitalAngle_ValueChanged);
 			// 
 			// label15
 			// 
@@ -456,13 +466,14 @@
 			this.label15.TabIndex = 51;
 			this.label15.Text = "Orbital Angle";
 			// 
-			// numericUpDown3
+			// DebrisOuterRadius
 			// 
-			this.numericUpDown3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown3.Location = new System.Drawing.Point(440, 404);
-			this.numericUpDown3.Name = "numericUpDown3";
-			this.numericUpDown3.Size = new System.Drawing.Size(124, 20);
-			this.numericUpDown3.TabIndex = 50;
+			this.DebrisOuterRadius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.DebrisOuterRadius.Location = new System.Drawing.Point(440, 404);
+			this.DebrisOuterRadius.Name = "DebrisOuterRadius";
+			this.DebrisOuterRadius.Size = new System.Drawing.Size(124, 20);
+			this.DebrisOuterRadius.TabIndex = 50;
+			this.DebrisOuterRadius.ValueChanged += new System.EventHandler(this.DebrisOuterRadius_ValueChanged);
 			// 
 			// label14
 			// 
@@ -474,13 +485,24 @@
 			this.label14.TabIndex = 49;
 			this.label14.Text = "Outer Radius";
 			// 
-			// numericUpDown2
+			// DebrisArc
 			// 
-			this.numericUpDown2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown2.Location = new System.Drawing.Point(193, 430);
-			this.numericUpDown2.Name = "numericUpDown2";
-			this.numericUpDown2.Size = new System.Drawing.Size(157, 20);
-			this.numericUpDown2.TabIndex = 48;
+			this.DebrisArc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.DebrisArc.Location = new System.Drawing.Point(193, 430);
+			this.DebrisArc.Maximum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            0});
+			this.DebrisArc.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+			this.DebrisArc.Name = "DebrisArc";
+			this.DebrisArc.Size = new System.Drawing.Size(157, 20);
+			this.DebrisArc.TabIndex = 48;
+			this.DebrisArc.ValueChanged += new System.EventHandler(this.DebrisArc_ValueChanged);
 			// 
 			// label13
 			// 
@@ -492,13 +514,14 @@
 			this.label13.TabIndex = 47;
 			this.label13.Text = "Arc";
 			// 
-			// numericUpDown1
+			// DebrisInnerRadius
 			// 
-			this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-			this.numericUpDown1.Location = new System.Drawing.Point(237, 404);
-			this.numericUpDown1.Name = "numericUpDown1";
-			this.numericUpDown1.Size = new System.Drawing.Size(113, 20);
-			this.numericUpDown1.TabIndex = 46;
+			this.DebrisInnerRadius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.DebrisInnerRadius.Location = new System.Drawing.Point(237, 404);
+			this.DebrisInnerRadius.Name = "DebrisInnerRadius";
+			this.DebrisInnerRadius.Size = new System.Drawing.Size(113, 20);
+			this.DebrisInnerRadius.TabIndex = 46;
+			this.DebrisInnerRadius.ValueChanged += new System.EventHandler(this.DebrisInnerRadius_ValueChanged);
 			// 
 			// label16
 			// 
@@ -517,6 +540,7 @@
 			this.DebrisName.Name = "DebrisName";
 			this.DebrisName.Size = new System.Drawing.Size(350, 20);
 			this.DebrisName.TabIndex = 29;
+			this.DebrisName.TextChanged += new System.EventHandler(this.DebrisName_TextChanged);
 			// 
 			// label12
 			// 
@@ -537,6 +561,7 @@
 			this.RemoveDebris.TabIndex = 27;
 			this.RemoveDebris.Text = "Delete";
 			this.RemoveDebris.UseVisualStyleBackColor = true;
+			this.RemoveDebris.Click += new System.EventHandler(this.RemoveDebris_Click);
 			// 
 			// AddDebris
 			// 
@@ -547,6 +572,7 @@
 			this.AddDebris.TabIndex = 26;
 			this.AddDebris.Text = "Add";
 			this.AddDebris.UseVisualStyleBackColor = true;
+			this.AddDebris.Click += new System.EventHandler(this.AddDebris_Click);
 			// 
 			// label11
 			// 
@@ -567,6 +593,7 @@
 			this.DebrisFieldList.Name = "DebrisFieldList";
 			this.DebrisFieldList.Size = new System.Drawing.Size(145, 95);
 			this.DebrisFieldList.TabIndex = 24;
+			this.DebrisFieldList.SelectedIndexChanged += new System.EventHandler(this.DebrisFieldList_SelectedIndexChanged);
 			// 
 			// RemoveSatelite
 			// 
@@ -654,6 +681,43 @@
 			this.PlanetList.TabIndex = 14;
 			this.PlanetList.SelectedIndexChanged += new System.EventHandler(this.PlanetList_SelectedIndexChanged);
 			// 
+			// toolsToolStripMenuItem
+			// 
+			this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addPlanetsToolStripMenuItem,
+            this.clearAllPlanetsToolStripMenuItem});
+			this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
+			this.toolsToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+			this.toolsToolStripMenuItem.Text = "Tools";
+			// 
+			// addPlanetsToolStripMenuItem
+			// 
+			this.addPlanetsToolStripMenuItem.Name = "addPlanetsToolStripMenuItem";
+			this.addPlanetsToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.addPlanetsToolStripMenuItem.Text = "Add Planets";
+			this.addPlanetsToolStripMenuItem.Click += new System.EventHandler(this.addPlanetsToolStripMenuItem_Click);
+			// 
+			// SystemDiagramTab
+			// 
+			this.SystemDiagramTab.Controls.Add(this.SystemDisplay);
+			this.SystemDiagramTab.Location = new System.Drawing.Point(4, 22);
+			this.SystemDiagramTab.Name = "SystemDiagramTab";
+			this.SystemDiagramTab.Size = new System.Drawing.Size(603, 509);
+			this.SystemDiagramTab.TabIndex = 3;
+			this.SystemDiagramTab.Text = "Diagram";
+			this.SystemDiagramTab.UseVisualStyleBackColor = true;
+			// 
+			// SystemDisplay
+			// 
+			this.SystemDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.SystemDisplay.Location = new System.Drawing.Point(0, 0);
+			this.SystemDisplay.Name = "SystemDisplay";
+			this.SystemDisplay.Size = new System.Drawing.Size(603, 509);
+			this.SystemDisplay.TabIndex = 0;
+			this.SystemDisplay.TabStop = false;
+			this.SystemDisplay.Click += new System.EventHandler(this.SystemDisplay_Click);
+			this.SystemDisplay.Paint += new System.Windows.Forms.PaintEventHandler(this.SystemDisplay_Paint);
+			// 
 			// SateliteInfo
 			// 
 			this.SateliteInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -669,6 +733,13 @@
 			this.PlanetInfo.Name = "PlanetInfo";
 			this.PlanetInfo.Size = new System.Drawing.Size(416, 160);
 			this.PlanetInfo.TabIndex = 16;
+			// 
+			// clearAllPlanetsToolStripMenuItem
+			// 
+			this.clearAllPlanetsToolStripMenuItem.Name = "clearAllPlanetsToolStripMenuItem";
+			this.clearAllPlanetsToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+			this.clearAllPlanetsToolStripMenuItem.Text = "Clear All Planets";
+			this.clearAllPlanetsToolStripMenuItem.Click += new System.EventHandler(this.clearAllPlanetsToolStripMenuItem_Click);
 			// 
 			// MapPannel
 			// 
@@ -698,10 +769,12 @@
 			((System.ComponentModel.ISupportInitialize)(this.Luminosity)).EndInit();
 			this.PlanetsTab.ResumeLayout(false);
 			this.PlanetsTab.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisOrbitalAngle)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisOuterRadius)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisArc)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.DebrisInnerRadius)).EndInit();
+			this.SystemDiagramTab.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)(this.SystemDisplay)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -756,14 +829,19 @@
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.ListBox SatelitesList;
 		private PlanetPropertyEditor PlanetInfo;
-		private System.Windows.Forms.NumericUpDown numericUpDown4;
+		private System.Windows.Forms.NumericUpDown DebrisOrbitalAngle;
 		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.NumericUpDown numericUpDown3;
+		private System.Windows.Forms.NumericUpDown DebrisOuterRadius;
 		private System.Windows.Forms.Label label14;
-		private System.Windows.Forms.NumericUpDown numericUpDown2;
+		private System.Windows.Forms.NumericUpDown DebrisArc;
 		private System.Windows.Forms.Label label13;
-		private System.Windows.Forms.NumericUpDown numericUpDown1;
+		private System.Windows.Forms.NumericUpDown DebrisInnerRadius;
 		private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem addPlanetsToolStripMenuItem;
+		private System.Windows.Forms.TabPage SystemDiagramTab;
+		private System.Windows.Forms.PictureBox SystemDisplay;
+		private System.Windows.Forms.ToolStripMenuItem clearAllPlanetsToolStripMenuItem;
 	}
 }
 

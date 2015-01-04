@@ -29,6 +29,10 @@ namespace StelarCartographer
 
 		private bool RebuildingLists = false;
 
+		private bool Loading = false;
+
+		private SystemRenderer Renderer = null;
+
 		public MapPannel()
 		{
 			InitializeComponent();
@@ -47,6 +51,8 @@ namespace StelarCartographer
 
 			if (StarSystemList.Items.Count > 0)
 				StarSystemList.SelectedIndex = 0;
+
+			Dirty();
 		}
 
 		private void importStarChartToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,15 +71,35 @@ namespace StelarCartographer
 			if (RebuildingLists)
 				return;
 
+			CurrentDebrisField = null;
+			CurrentPlanet = null;
+			CurrentSatelite = null;
+			CurrentStar = null;
+
 			CurrentStarSystem = StarSystemList.SelectedItem as StarSystem;
+
+			if (Renderer != null)
+				Renderer.Dispose();
+
+			Renderer = new SystemRenderer(CurrentStarSystem);
+
 			StarList.Items.Clear();
+			SatelitesList.Items.Clear();
 			PlanetList.Items.Clear();
+			DebrisFieldList.Items.Clear();
+
 			PlanetInfo.Init(null);
 			SateliteInfo.Init(null);
 			RemoveDebris.Enabled = false;
 			RemoveSatelite.Enabled = false;
 			AddSatelite.Enabled = false;
 			DeletePlanet.Enabled = false;
+
+			DebrisName.Text = string.Empty;
+			DebrisOrbitalAngle.Value = 0;
+			DebrisInnerRadius.Value = 0;
+			DebrisOuterRadius.Value = 0;
+			DebrisArc.Value = 0;
 
 			if (CurrentStarSystem == null)
 			{
@@ -100,10 +126,18 @@ namespace StelarCartographer
 					PlanetList.SelectedIndex = 0;
 				else
 					PlanetList.SelectedItem = null;
+
+				DebrisFieldList.Items.AddRange(CurrentStarSystem.DebrisFields.ToArray());
+
+				if (DebrisFieldList.Items.Count > 0)
+					DebrisFieldList.SelectedIndex = 0;
+				else
+					DebrisFieldList.SelectedItem = null;
 			}
 
 			AddPlanet.Enabled = CurrentStarSystem != null;
 			AddDebris.Enabled = CurrentStarSystem != null;
+			Dirty();
 		}
 
 		private void StarList_SelectedIndexChanged(object sender, EventArgs e)
@@ -151,26 +185,31 @@ namespace StelarCartographer
 		private void StarCategory_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			CurrentStar.SpectralType = (StarSystem.Star.SpectraTypes)StarCategory.SelectedIndex;
+			Dirty();
 		}
 
 		private void StarTempurateure_ValueChanged(object sender, EventArgs e)
 		{
 			CurrentStar.Temperature = (double)StarTempurateure.Value;
+			Dirty();
 		}
 
 		private void Luminosity_ValueChanged(object sender, EventArgs e)
 		{
 			CurrentStar.Luminosity = (double)Luminosity.Value;
+			Dirty();
 		}
 
 		private void StarMagnitude_ValueChanged(object sender, EventArgs e)
 		{
 			CurrentStar.Magnitude = (double)StarMagnitude.Value;
+			Dirty();
 		}
 
 		private void StarSystemLocalName_TextChanged(object sender, EventArgs e)
 		{
 			CurrentStarSystem.LocalName = StarSystemLocalName.Text;
+			Dirty();
 		}
 
 		private void SatelitesList_SelectedIndexChanged(object sender, EventArgs e)
@@ -183,18 +222,59 @@ namespace StelarCartographer
 			RemoveSatelite.Enabled = CurrentSatelite != null;
 		}
 
+		private void DebrisFieldList_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			CurrentDebrisField = DebrisFieldList.SelectedItem as StarSystem.DebrisField;
+
+			Loading = true;
+			if (CurrentDebrisField == null)
+			{
+				DebrisName.Text = string.Empty;
+				DebrisOrbitalAngle.Value = 0;
+				DebrisInnerRadius.Value = 0;
+				DebrisOuterRadius.Value = 0;
+				DebrisArc.Value = 0;
+			}
+			else
+			{
+				DebrisName.Text = CurrentDebrisField.Name;
+				DebrisOrbitalAngle.Value = (decimal)CurrentDebrisField.SyncAngle;
+				DebrisInnerRadius.Value = (decimal)CurrentDebrisField.InnerRadius;
+				DebrisOuterRadius.Value = (decimal)CurrentDebrisField.OuterRadius;
+				DebrisArc.Value = (decimal)CurrentDebrisField.Arc;
+			}
+			Loading = false;
+		}
+
+		private void DebrisName_TextChanged(object sender, EventArgs e)
+		{
+			if (Loading || CurrentDebrisField == null || DebrisName.Text == CurrentDebrisField.Name)
+				return;
+
+			CurrentDebrisField.Name = DebrisName.Text;
+			int i = DebrisFieldList.SelectedIndex;
+			RebuildingLists = true;
+			DebrisFieldList.Items.RemoveAt(i);
+			DebrisFieldList.Items.Insert(i, CurrentDebrisField);
+			DebrisFieldList.SelectedIndex = i;
+			RebuildingLists = false;
+			Dirty();
+		}
+
 		private void AddPlanet_Click(object sender, EventArgs e)
 		{
 			StarSystem.Planet planet = new StarSystem.Planet();
 			CurrentStarSystem.Planets.Add(planet);
 			PlanetList.Items.Add(planet);
 			PlanetList.SelectedItem = planet;
+			Dirty();
 		}
 
 		private void DeletePlanet_Click(object sender, EventArgs e)
 		{
 			CurrentStarSystem.Planets.Remove(CurrentPlanet);
 			StarSystemList_SelectedIndexChanged(this, EventArgs.Empty);
+			Dirty();
 		}
 
 		private void AddSatelite_Click(object sender, EventArgs e)
@@ -203,12 +283,14 @@ namespace StelarCartographer
 			CurrentPlanet.Satalites.Add(planet);
 			SatelitesList.Items.Add(planet);
 			SatelitesList.SelectedItem = planet;
+			Dirty();
 		}
 
 		private void RemoveSatelite_Click(object sender, EventArgs e)
 		{
 			CurrentPlanet.Satalites.Remove(CurrentSatelite);
 			PlanetList_SelectedIndexChanged(this, EventArgs.Empty);
+			Dirty();
 		}
 
 		private void MapPannel_Load(object sender, EventArgs e)
@@ -227,6 +309,7 @@ namespace StelarCartographer
 				PlanetList.Items.Insert(i, CurrentPlanet);
 				PlanetList.SelectedIndex = i;
 				RebuildingLists = false;
+				Dirty();
 			}
 		}
 
@@ -240,6 +323,7 @@ namespace StelarCartographer
 				SatelitesList.Items.Insert(i, CurrentSatelite);
 				SatelitesList.SelectedIndex = i;
 				RebuildingLists = false;
+				Dirty();
 			}
 		}
 
@@ -282,6 +366,106 @@ namespace StelarCartographer
 				fs.Close();
 
 				PopulateSystemList();
+			}
+		}
+
+		private void DebrisInnerRadius_ValueChanged(object sender, EventArgs e)
+		{
+			if (Loading || CurrentDebrisField == null)
+				return;
+
+			CurrentDebrisField.InnerRadius = (double)DebrisInnerRadius.Value;
+			Dirty();
+		}
+
+		private void DebrisOuterRadius_ValueChanged(object sender, EventArgs e)
+		{
+			if (Loading || CurrentDebrisField == null)
+				return;
+
+			CurrentDebrisField.OuterRadius = (double)DebrisOuterRadius.Value;
+			Dirty();
+		}
+
+		private void DebrisArc_ValueChanged(object sender, EventArgs e)
+		{
+			if (Loading || CurrentDebrisField == null)
+				return;
+
+			CurrentDebrisField.Arc = (double)DebrisArc.Value;
+			Dirty();
+		}
+
+		private void DebrisOrbitalAngle_ValueChanged(object sender, EventArgs e)
+		{
+			if (Loading || CurrentDebrisField == null)
+				return;
+
+			CurrentDebrisField.SyncAngle = (double)DebrisOrbitalAngle.Value;
+			Dirty();
+		}
+
+		private void AddDebris_Click(object sender, EventArgs e)
+		{
+			StarSystem.DebrisField field = new StarSystem.DebrisField();
+			CurrentStarSystem.DebrisFields.Add(field);
+			DebrisFieldList.Items.Add(field);
+			DebrisFieldList.SelectedItem = field;
+
+			Dirty();
+		}
+
+		private void RemoveDebris_Click(object sender, EventArgs e)
+		{
+			if (CurrentDebrisField == null)
+				return;
+
+			CurrentStarSystem.DebrisFields.Remove(CurrentDebrisField);
+			DebrisFieldList.Items.Remove(DebrisFieldList.SelectedIndex);
+			if (DebrisFieldList.Items.Count > 0)
+				DebrisFieldList.SelectedIndex = 0;
+			else
+				DebrisFieldList.SelectedIndex = -1;
+
+			Dirty();
+		}
+
+		private void addPlanetsToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			GalaxyTools.AddRandomWorlds(Arm, 0.75, 9);
+			Dirty();
+		}
+
+		private void SystemDisplay_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		protected void Dirty()
+		{
+			InvalidateSystemDisplay();
+		}
+
+		protected void InvalidateSystemDisplay()
+		{
+			SystemDisplay.Invalidate();
+		}
+
+		private void SystemDisplay_Paint(object sender, PaintEventArgs e)
+		{
+			if (Renderer == null || CurrentStarSystem == null)
+				return;
+
+			Renderer.Draw(e.Graphics, SystemDisplay);
+		}
+
+		private void clearAllPlanetsToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			foreach (StarSystem system in Arm.StarSystems)
+			{
+				system.Planets.Clear();
+				system.DebrisFields.Clear();
+				Dirty();
 			}
 		}
 	}
