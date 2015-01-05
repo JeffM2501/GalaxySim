@@ -71,7 +71,7 @@ namespace StelarCartographer
 				DrawCircle(context, GetStarColor(star), midX + (int)(star.Offset.X * scale), midY + (int)(star.Offset.Y * scale), 10 + (int)(0.5 * (star.Magnitude + star.Luminosity)));
 			}
 
-			foreach(StarSystem.Planet planet in TheStarSystem.Planets)
+			foreach(Planet planet in TheStarSystem.Planets)
 			{
 
 			}

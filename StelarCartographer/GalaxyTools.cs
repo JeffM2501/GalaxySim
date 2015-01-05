@@ -120,7 +120,7 @@ namespace StelarCartographer
 					else
 					{
 						lastWasBelt = false;
-						StarSystem.Planet planet = new StarSystem.Planet();
+						Planet planet = new Planet();
 
 						if (!hasPrimary && rand.NextDouble() < 0.25)
 						{
@@ -133,8 +133,8 @@ namespace StelarCartographer
 							planet.Name = GetPlanetName();
 
 						planet.ID = i;
-						planet.TypeClass = (StarSystem.Planet.TypeClasses)rand.Next((int)(StarSystem.Planet.TypeClasses.Unknown) - 1);
-						planet.Climate = (StarSystem.Planet.Climates)rand.Next((int)(StarSystem.Planet.Climates.Unknown) - 1);
+						planet.TypeClass = (Planet.TypeClasses)rand.Next((int)(Planet.TypeClasses.Unknown) - 1);
+						planet.Climate = (Planet.Climates)rand.Next((int)(Planet.Climates.Unknown) - 1);
 
 						planet.Radius = 1200 + (rand.NextDouble() * 68000);
 						planet.Mass = 0.05 + (rand.NextDouble() * 1000);
@@ -149,7 +149,7 @@ namespace StelarCartographer
 						bool useMoonRomans = !useRomans && rand.NextDouble() < .6;
 						for (byte m = 0; m < moonCount; m++)
 						{
-							StarSystem.Planet moon = new StarSystem.Planet();
+							Planet moon = new Planet();
 							moon.ID = m;
 							if (useMoonRomans)
 								moon.Name = planet.Name + " " + ToRoman(m + 2);
@@ -159,8 +159,8 @@ namespace StelarCartographer
 							moon.Radius = 400 + (rand.NextDouble() * 1200);
 							moon.OrbitalRadius = planet.Radius * 2 + (rand.NextDouble() * planet.Radius * 4);
 
-							moon.TypeClass = (StarSystem.Planet.TypeClasses)rand.Next((int)(StarSystem.Planet.TypeClasses.Fluid));
-							moon.Climate = (StarSystem.Planet.Climates)rand.Next((int)(StarSystem.Planet.Climates.Unknown) - 1);
+							moon.TypeClass = (Planet.TypeClasses)rand.Next((int)(Planet.TypeClasses.Fluid));
+							moon.Climate = (Planet.Climates)rand.Next((int)(Planet.Climates.Unknown) - 1);
 
 							planet.SyncAngle = rand.NextDouble() * Math.PI * 2;
 

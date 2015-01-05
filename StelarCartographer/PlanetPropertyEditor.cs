@@ -15,7 +15,7 @@ namespace StelarCartographer
 {
 	public partial class PlanetPropertyEditor : UserControl
 	{
-		protected StarSystem.Planet Planet = new StarSystem.Planet();
+		protected Planet ThePlanet = new Planet();
 
 		public EventHandler Dirty = null;
 
@@ -24,7 +24,7 @@ namespace StelarCartographer
 			InitializeComponent();
 		}
 
-		public PlanetPropertyEditor(StarSystem.Planet planet)
+		public PlanetPropertyEditor(Planet planet)
 		{
 			Init(planet);
 		}
@@ -32,24 +32,24 @@ namespace StelarCartographer
 		bool Loading = false;
 		private void CallDirty()
 		{
-			if (Planet == null || Loading || Dirty == null)
+			if (ThePlanet == null || Loading || Dirty == null)
 				return;
 
-			Dirty(Planet, EventArgs.Empty);
+			Dirty(ThePlanet, EventArgs.Empty);
 		}
 
-		public void Init(StarSystem.Planet planet)
+		public void Init(Planet planet)
 		{
-			Planet = planet;
+			ThePlanet = planet;
 
 			Loading = true;
 
-			if (Planet != null)
+			if (ThePlanet != null)
 			{ 
 				PlanetName.Text = planet.Name;
 				PlanetType.SelectedIndex = (int)planet.TypeClass;
 				PlanetClimate.SelectedIndex = (int)planet.Climate;
-				Ringed.Checked = Planet.Ringed;
+				Ringed.Checked = ThePlanet.Ringed;
 
 				MassEdit.Value = (decimal)planet.Mass;
 				RadiusEdit.Value = (decimal)planet.Radius;
@@ -74,57 +74,57 @@ namespace StelarCartographer
 
 		private void PlanetName_TextChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.Name = PlanetName.Text;
+			if (ThePlanet != null)
+				ThePlanet.Name = PlanetName.Text;
 			CallDirty();
 		}
 
 		private void PlanetType_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.TypeClass = (StarSystem.Planet.TypeClasses)PlanetType.SelectedIndex;
+			if (ThePlanet != null)
+				ThePlanet.TypeClass = (Planet.TypeClasses)PlanetType.SelectedIndex;
 			CallDirty();
 		}
 
 		private void PlanetClimate_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.Climate = (StarSystem.Planet.Climates)PlanetClimate.SelectedIndex;
+			if (ThePlanet != null)
+				ThePlanet.Climate = (Planet.Climates)PlanetClimate.SelectedIndex;
 			CallDirty();
 		}
 
 		private void Ringed_CheckedChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.Ringed = Ringed.Checked;
+			if (ThePlanet != null)
+				ThePlanet.Ringed = Ringed.Checked;
 			CallDirty();
 		}
 
 		private void MassEdit_ValueChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.Mass = (double)MassEdit.Value;
+			if (ThePlanet != null)
+				ThePlanet.Mass = (double)MassEdit.Value;
 			CallDirty();
 		}
 
 		private void RadiusEdit_ValueChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.Radius = (double)RadiusEdit.Value;
+			if (ThePlanet != null)
+				ThePlanet.Radius = (double)RadiusEdit.Value;
 			CallDirty();
 		}
 
 		private void OrbitEdit_ValueChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.OrbitalRadius = (double)OrbitEdit.Value;
+			if (ThePlanet != null)
+				ThePlanet.OrbitalRadius = (double)OrbitEdit.Value;
 			CallDirty();
 		}
 
 		private void AngleEdit_ValueChanged(object sender, EventArgs e)
 		{
-			if (Planet != null)
-				Planet.SyncAngle = (double)AngleEdit.Value;
+			if (ThePlanet != null)
+				ThePlanet.SyncAngle = (double)AngleEdit.Value;
 			CallDirty();
 		}
 	}

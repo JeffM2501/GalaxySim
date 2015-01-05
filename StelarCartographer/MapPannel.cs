@@ -21,8 +21,8 @@ namespace StelarCartographer
 
 		public GalaxySim.StarSystem CurrentStarSystem = null;
 		public GalaxySim.StarSystem.Star CurrentStar= null;
-		public GalaxySim.StarSystem.Planet CurrentPlanet = null;
-		public GalaxySim.StarSystem.Planet CurrentSatelite = null;
+		public GalaxySim.Planet CurrentPlanet = null;
+		public GalaxySim.Planet CurrentSatelite = null;
 		public GalaxySim.StarSystem.DebrisField CurrentDebrisField = null;
 
 		public FileInfo OutputFile = null;
@@ -167,7 +167,7 @@ namespace StelarCartographer
 			if (RebuildingLists)
 				return;
 
-			CurrentPlanet = PlanetList.SelectedItem as StarSystem.Planet;
+			CurrentPlanet = PlanetList.SelectedItem as Planet;
 			SatelitesList.Items.Clear();
 
 			PlanetInfo.Init(CurrentPlanet);
@@ -217,7 +217,7 @@ namespace StelarCartographer
 			if (RebuildingLists)
 				return;
 
-			CurrentSatelite = SatelitesList.SelectedItem as StarSystem.Planet;
+			CurrentSatelite = SatelitesList.SelectedItem as Planet;
 			SateliteInfo.Init(CurrentSatelite);
 			RemoveSatelite.Enabled = CurrentSatelite != null;
 		}
@@ -263,7 +263,7 @@ namespace StelarCartographer
 
 		private void AddPlanet_Click(object sender, EventArgs e)
 		{
-			StarSystem.Planet planet = new StarSystem.Planet();
+			Planet planet = new Planet();
 			CurrentStarSystem.Planets.Add(planet);
 			PlanetList.Items.Add(planet);
 			PlanetList.SelectedItem = planet;
@@ -279,7 +279,7 @@ namespace StelarCartographer
 
 		private void AddSatelite_Click(object sender, EventArgs e)
 		{
-			StarSystem.Planet planet = new StarSystem.Planet();
+			Planet planet = new Planet();
 			CurrentPlanet.Satalites.Add(planet);
 			SatelitesList.Items.Add(planet);
 			SatelitesList.SelectedItem = planet;
